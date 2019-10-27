@@ -1,10 +1,10 @@
 package mcxtzhang.swipedelmenu.FullDemo;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
@@ -24,7 +24,7 @@ import mcxtzhang.swipedelmenu.SwipeBean;
  * 时间： 2016/9/12.
  */
 
-public class FullDelDemoActivity extends Activity {
+public class FullDelDemoActivity extends AppCompatActivity {
     private static final String TAG = "zxt";
     private RecyclerView mRv;
     private FullDelDemoAdapter mAdapter;
